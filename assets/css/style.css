@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400&family=Roboto:wght@100;400;500;700&display=swap');
+
+ /* ----------------colors */
+
+.bg-color-name-title{
+    background-color: #676767;
+}
+
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+.ui-menu-color-resume{
+    background-color: #9f3ab8;
+}
+.ui-menu-color-contact{
+    background-color: #516abb;
+}
+.ui-menu-color-download{
+    background-color: #615e5c;
+}
+
+ /* --------------- heading */
+header{
+    margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.logo{
+    background: url( "../images/murthy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name{
+    font-family :'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 200;
+ font-size: 28px;
+ margin-bottom: 90px;
+ color: #fff;
+ margin-top: 20px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer{
+ font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+
+.menu-item {
+    text-align: center;
+    height: 120px;
+    padding: 0;
+}
+
+.menu-item a{
+    width: 100%;
+    text-decoration: none;
+    color : #fff;
+    height :  120px;
+}
+
+.menu-item a i {
+    display: block;
+    font-size: 26px;
+    padding-top: 22px;
+}
+
+.menu-item span{
+    display: block;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* ---------------------- hover css */
+
+.hvr-sweep-to-bottom:before {
+    background : rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
